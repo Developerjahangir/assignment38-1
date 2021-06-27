@@ -1,0 +1,192 @@
+/* =======================================
+    Startup Css
+==========================================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* =======================================
+    Header Area Css
+==========================================*/
+
+.header_area {
+    background: #f5deb3;
+}
+
+.header_area_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo a img {
+    width: 180px;
+}
+
+.header_menu ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+
+.header_menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 0 25px;
+    border-right: 1px solid #fff;
+    line-height: 95px;
+}
+
+/* =======================================
+    Banner Area Css
+==========================================*/
+
+.banner_area {
+    background: url(image/intro-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 200px 0;
+}
+
+.banner_area_content {
+    text-align: center;
+}
+
+.banner_area_content h2 {
+    color: #3498db;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.banner_area_content h3 {
+    color: #3498db;
+    font-size: 40px;
+}
+
+/* =======================================
+    About Area Css
+==========================================*/
+
+.about_area {
+    background: #fff;
+    padding: 80px 0;
+}
+
+.about_area_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about_left_area {
+    width: 30%;
+}
+
+.about_right_area {
+    width: 60%;
+}
+
+.about_text {
+    margin-top: 20px;
+}
+
+.about_right_area .about_text h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.about_right_area .about_text h3 {
+    font-size: 31px;
+    margin-bottom: 20px
+}
+
+.about_right_area .about_text p {
+    line-height: 29px;
+}
+
+/* =======================================
+    Service Area Css
+==========================================*/
+
+.service_area {
+    background: #fffaf0;
+    padding: 80px 0; 
+}
+
+.service_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_box {
+    width: 32%;
+    text-align: center;
+    border: 2px dashed #cfcfce;
+    border-radius: 50px 0 50px 0;
+    padding: 40px;
+}
+
+.service_box span i {
+    color: #3498db;
+    font-size: 30px;
+    border: 2px solid #3498db;
+    padding: 15px;
+    border-radius: 25px 0 25px 0;
+    margin-bottom: 20px;
+}
+
+.service_box h2 {
+    margin-bottom: 20px;
+}
+
+/* =======================================
+    Footer Area Css
+==========================================*/
+
+.footer_area {
+    background: #2c3e50;
+    padding: 20px 0;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_left_area p {
+    color: #fff;
+    font-size: 19px;
+}
+
+.footer_right_area ul li {
+    display: inline-block;
+}
+
+.footer_right_area ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+}
